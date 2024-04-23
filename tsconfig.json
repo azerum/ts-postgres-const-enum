@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "Node16",
+
+        "outDir": "./out-tsc"
+    },
+
+    "include": ["./src/**.ts"],
+    "exclude": ["**/*.test.ts"]
+}
