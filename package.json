@@ -6,7 +6,7 @@
 		"build:esbuild": "esbuild src/main.ts --tsconfig=tsconfig.json --outdir=out-esbuild"
 	},
 	"dependencies": {
-		"ts-postgres": "file:export-type.tgz",
+		"ts-postgres": "file:export-value.tgz",
 		"vitest": "^1.5.0"
 	},
 	"devDependencies": {
